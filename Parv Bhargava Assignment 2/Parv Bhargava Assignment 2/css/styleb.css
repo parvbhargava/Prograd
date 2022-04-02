@@ -1,0 +1,14 @@
+.box1{
+    align-items: center;
+    margin: 50px;
+    padding: 50px;
+    font-size: 50px;
+    border: 80px solid grey;
+
+}
+
+.box{
+    margin: 10px;
+    border: 10px dashed grey;
+    
+}

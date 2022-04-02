@@ -1,0 +1,49 @@
+body {
+  background-color: orangered;
+  margin: 5%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+  padding: 0.5rem;
+}
+label{
+  font-size: larger;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+form {
+  display: block;
+}
+input[type='text'] {
+  width: 30%;
+  margin-bottom: 2%;
+  padding: 0.5rem;
+}
+input[type='textarea'] {
+  width: 30%;
+  height: 50%;
+  margin-bottom: 2%;
+}
+input[type='radio'] {
+  margin-bottom: 2%;
+}
+input[type='checkbox'] {
+  margin-bottom: 2%;
+}
+input[type='submit'] {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: aqua;
+  font-weight: bold;
+}
+select {
+  margin-bottom: 2%;
+}

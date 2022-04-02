@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Employee form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Employee form</h1>
+      <form>
+        <label>Enter Your Name:</label>
+        <input type="text" placeholder="Enter Name Here" /><br />
+        <label> Enter Your Department:</label>
+        <input type="text" placeholder="Enter Department Here" /><br />
+        <label>Tell us a little more about yourself:</label>
+        <textarea placeholder="Tell us about yourself"></textarea><br />
+        <label>Do you exercise at home?:</label>
+        <input type="radio" name="Answer" value="Yes" /><label>Yes</label>
+        <input type="radio" name="Answer" value="No" /><label>No</label><br />
+        <label>How Do You Like To Read About Your Favourite Topics</label><br />
+        <input type="checkbox" name="read" value="1" /><label>Books</label>
+        <input type="checkbox" name="read" value="2" /><label
+          >Online Resources</label
+        >
+        <input type="checkbox" name="read" value="3" /><label>Phone Apps</label>
+        <input type="checkbox" name="read" value="4" /><label>Magazines</label
+        ><br />
+        <label>What Genre of Movies Do You Like?</label>
+        <select name="genre" id="genre">
+          <option value="1">Comedy</option>
+          <option value="2">Horror</option>
+          <option value="3">Romance</option>
+          <option value="4">Thriller</option>
+          <option value="5">Mystery</option>
+          <option value="6">Adventure</option>
+          <option value="7">Action</option></select
+        ><br />
+        <input type="submit" value="Submit Form" />
+      </form>
+    </div>
+  </body>
+</html>
