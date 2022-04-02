@@ -7,6 +7,7 @@ body {
 	background-image: url("/CricPro-Score/assets/background-image1.png");
 	background-repeat: no-repeat;
 	background-position:right bottom ;
+
   }
   .footer{
 	top: 50px;
@@ -46,7 +47,9 @@ p{
 table{
 	font-size:large;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	margin-left: 100px;
+	margin-left: 80px;
 	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 40px;
 
 }
