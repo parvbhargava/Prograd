@@ -3,112 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CricPro</title>
-    <link rel="stylesheet" href="style/style.css">
-    <style>
-        body {
-          background-image: url("assets/background-image1.png");
-        }
-        </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Type your code here -->
-    <div class="logo"><img src="assets/Logo.JPG" ></div>
-    
-    <div class="heading">
-        <h1>ICC WORLD CUP 2011</h1>
-        <p>India Vs SriLanka Scorecard </p>
-    </div>
-    
-    <table  cellpadding="10" cellspacing ="0">
-        <tr style="background-color: rgb(255, 34, 0);">
-            <th>India Innings</th>
-            <th style="color: rgb(255, 34, 0);"></th>
-            <th style="color: rgb(255, 34, 0);"></th>
-            <th style="color: rgb(255, 34, 0);"></th>
-            <th style="color: rgb(255, 34, 0);"></th>
-            <th style="color: rgb(255, 34, 0);"></th>
-            <th>277 - 4 (48.2)</th>
-        </tr>
-        <tr>
-            <th>Batsman</th>
-            <th></th>
-            <th>R</th>
-            <th>B</th>
-            <th>4s</th>
-            <th>6s</th>
-            <th>SR</th>
-        </tr>
-        <tr>
-            <td><a href="VirendraSehwag.html"target ="_blank">Virender Sehwag</a></td>
-            <td>lbw b L Malinga</td>
-            <td>0</td>
-            <td>2</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0.00</td>
-        </tr>
-        <tr>
-            <td><a href="Sachin.html"target ="_blank">Sachin Tendulkar</a></td>
-            <td>c K Sangakkara b L Malinga</td>
-            <td>18</td>
-            <td>14</td>
-            <td>2</td>
-            <td>0</td>
-            <td>128.57</td>
-        </tr>
-        <tr>
-            <td><a href="Gautam.html"target ="_blank">Gautam Gambhir</a></td>
-            <td>b T Perera</td>
-            <td>97</td>
-            <td>122</td>
-            <td>9</td>
-            <td>0</td>
-            <td>79.51</td>
-        </tr>
-        <tr>
-            <td><a href="Virat.html"target ="_blank">Virat Kohli</a></td>
-            <td>c & b T Dilshan</td>
-            <td>35</td>
-            <td>49</td>
-            <td>4</td>
-            <td>0</td>
-            <td>71.43</td>
-        </tr>
-        <tr>
-            <td><a href="msd.html"target ="_blank">MS Dhoni (c & wk)</a></td>
-            <td>not out</td>
-            <td>91</td>
-            <td>79</td>
-            <td>8</td>
-            <td>2</td>
-            <td>115.19</td>
-        </tr>
-        <tr>
-            <td><a href="yuvi.html"target ="_blank">Yuvraj Singh</a></td>
-            <td>not out</td>
-            <td>21</td>
-            <td>24</td>
-            <td>2</td>
-            <td>0</td>
-            <td>87.50</td>
-        </tr>
-        <tr>
-            <th>Extras</th>
-            <th style="color: white;"></th>
-            <th>15(b 1,lb 6,w 8,nb 0,p 0)</th>
-        </tr>
-        <tr>
-            <th>Total</th>
-            <th style="color: white;"></th>
-            <th>277 (4 wkts,48.2 Ov)</th>
-        </tr>
-        <tr>
-            <th>Did not bat</th>
-            <td><a href="Raina.html"target ="_blank"> Suresh Raina,</a><a href="Harbhajan.html"target ="_blank"> Harbhajan Singh,</a><a href="Zaheer.html"target ="_blank"> Zaheer Khan,</a><a href="Munaf.html"target ="_blank"> Munaf Patel,</a><a href="Sreesanth.html"target ="_blank"> S Sreesanth</a></td>
-        </tr>
-    </table>
 
-    <footer class="footer">Made with <img src="assets/prograd-heart.svg"> by Parv Bhargava</footer>
+    <!-- logo -->
+    <nav>
+        <ul>
+            <li><img src="./assets/Logo.JPG" alt="logo"></li>
+        </ul>
+    </nav>
+    <!-- logo ends -->
+
+    <!-- header -->
+    <header>
+        <h1>ICC WORLD CUP 2011</h1>
+        <h3>India Vs Srilanka Score Card</h3>
+    </header>
+    <!-- header ends -->
+
+    <!-- table content -->
+    <section>
+        <table>
+            <tr class="INDIA">
+                <td>India Innings</td>
+                <td colspan="6" id="end">277 - 4 (48.2)</td>
+            </tr>
+            <tr class="NAME">
+                <td><b>Batsman</b> </td>
+                <td></td>
+                <td class="center"><b>R</b></td>
+                <td class="center"><b>B</b></td>
+                <td class="center"><b>4s</b></td>
+                <td class="center"><b>6s</b></td>
+                <td class="right"><b>SR</b></td>
+            </tr>
+            <tr class="NAME">
+                <td> <a href="./assets/Player6.png" target="_blank">Virender Sehwag</a></td>
+                <td class="out">lbw b L Malinga</td>
+                <td class="center"><b>0</b></td>
+                <td class="center">2</td>
+                <td class="center">0</td>
+                <td class="center">0</td>
+                <td class="right">0.00</td>
+            </tr>
+            <tr class="NAME">
+                <td><a href="./assets/Player5.png" target="_blank">Sachin Tendulkar</a> </td>
+                <td class="out">c K Sangakkara b L Malinga</td>
+                <td class="center"><b>18</b></td>
+                <td class="center">14</td>
+                <td class="center">2</td>
+                <td class="center">0</td>
+                <td class="right">128.57</td>
+            </tr>
+            <tr class="NAME">
+                <td><a href="./assets/Player4.png" target="_blank" >Gautam Gambhir</a> </td>
+                <td class="out">b T Perera</td>
+                <td class="center"><b>97</b></td>
+                <td class="center">122</td>
+                <td class="center">9</td>
+                <td class="center">0</td>
+                <td class="right">79.51</td>
+            </tr>
+            <tr class="NAME">
+                <td><a href="./assets/Player3.png" target="_blank">Virat Kohli</a> </td>
+                <td class="out">c & b T Dilshan</td>
+                <td class="center"><b>35</b></td>
+                <td class="center">49</td>
+                <td class="center">4</td>
+                <td class="center">0</td>
+                <td class="right">71.43</td>
+            </tr>
+            <tr class="NAME">
+                <td> <a href="./assets/Player2.png" target="_blank"> MS Dhoni (c & wk)</a></td>
+                <td class="out">not out</td>
+                <td class="center"><b>91</b></td>
+                <td class="center">79</td>
+                <td class="center">8</td>
+                <td class="center">2</td>
+                <td class="right">115.19</td>
+            </tr>
+            <tr class="NAME">
+                <td> <a href="./assets/Player1.png" target="_blank">Yuvraj Singh</a></td>
+                <td class="out">not out</td>
+                <td class="center"><b>21</b></td>
+                <td class="center">24</td>
+                <td class="center">2</td>
+                <td class="center">0</td>
+                <td class="right">87.50</td>
+            </tr>
+            <tr class="NAME">
+                <td>Extras</td>
+                <td></td>
+                <td colspan="5" class="left"> &ensp; <b> 15</b>(b 1, lb 6, w 8, nb 0, p 0)</td>
+            </tr>
+            <tr class="NAME">
+                <td>Total</td>
+                <td></td>
+                <td colspan="5" class="left"> &ensp; <b>277</b>  (4 wkts, 48.2 Ov)</td>
+            </tr>
+            <tr class="NAME">
+                <td>Did not bat</td>
+                <td colspan="6">
+                    <a href="./assets/Player1-1.jpg" target="_blank">Suresh Raina,</a>
+                    <a href="./assets/Player1-2.jpg" target="_blank"> Harbhajan Singh,</a>
+                    <a href="./assets/Player1-3.jpg" target="_blank"> Zaheer Khan,</a>
+                    <a href="./assets/Player1-4.jpg" target="_blank"> Munaf patel,</a>
+                    <a href="./assets/Player1-5.jpg" target="_blank"> S Sreesanth</a>
+                </td>
+            </tr>
+        </table>
+        <!-- table content ends -->
+
+        <!--footer-->
+
+    <footer class="footer">Made with <img src="./assets/prograd-heart.svg">  by Parv Bhargava</footer>
 </body>
 </html>

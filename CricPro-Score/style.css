@@ -1,0 +1,114 @@
+/* Type your code here */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;800;900&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* styling logo */
+ul{
+	list-style:none;
+	display: flex;
+	justify-content:flex-end;
+}
+ul>li{
+	padding: 15px 30px;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	margin-top: 1px;
+	margin-left:70px;
+}
+
+h1{
+	font-size: 3em;
+	font-weight: bolder;
+	font-family: 'Nunito Sans';
+	text-shadow: 0px 4px 3px gray;
+}
+
+h3{
+	font-family: 'Nunito Sans';
+	color: gray;
+	line-height: 5px;
+	font-weight: 600;
+	font-size: 22px;
+	padding: 4px;
+	text-shadow: 0 1px 1px grey;
+}
+
+section{
+	width: 100%;
+	height: 525px;
+	background-size: 70% 600px;
+	background-repeat: no-repeat;
+	background-position:right;
+	background-image: url(./assets/background-image1.png);
+	font-size: 18px;
+}
+
+table{
+	margin-left: 70px;
+	margin-top: 25px;
+	border-collapse: collapse;
+	width: 65%;
+	box-shadow: -3px 3px 3px 0px lightgray;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(85, 85, 253);
+}
+
+td{
+	padding: 5px;
+	padding-left: 20px;
+	font-family: 'Nunito Sans';
+}
+
+.INDIA{
+	background-color: rgb(250, 70, 70);
+	color: white;
+}
+
+#end{
+	text-align: right;
+}
+.NAME{
+	background-color: white;
+	border-bottom: 2px solid lightgrey;
+}
+
+.out{
+	color: grey;
+	text-align: left;
+}
+
+.right{
+	text-align: right;
+	padding-right: 20px;
+}
+
+.center{
+	text-align: center;
+}
+
+
+
+/* change the font family and spacing as per your project font */
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: relative;
+	top: 20px;
+	margin-left: 80px;
+	font-size: 18px;
+	font-family: Nunito Sans;
+    font-style: normal;
+    
+}
