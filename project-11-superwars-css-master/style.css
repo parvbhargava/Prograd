@@ -1,3 +1,30 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin: 10%;
+  margin-top: 0%;
+}
+
+.grid-item {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item1 {
+  display: inline-grid;
+  justify-content: space-evenly;
+  background-color: rgb(255, 255, 255);
+  
+  box-shadow:2px 5px 10px rgba(68, 67, 67, 0.795);
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 5px;
+}
 .footer{
   margin-left : 80px;
   font-size : 18px;
