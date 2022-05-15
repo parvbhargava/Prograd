@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Mania</title>
+    <link
+      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="trailer">
+        <button onclick="closeTrailer()">Back</button>
+        <div class="screen">
+          <iframe src="" frameborder="0" id="trailer"></iframe>
+        </div>
+      </div>
+      <div class="head">
+        <div class="logo"><i class="fas fa-film"></i><span> ProGrad</span></div>
+        <div class="right">
+          <select onchange="getMovies('',this.value)">
+            <option value="en">English</option>
+            <option value="hi">Hindi</option>
+            <option value="ml">Malyalam</option>
+            <option value="ta">Tamil</option>
+            <option value="te">Telgu</option>
+          </select>
+          <p onclick="getMovies('now_playing','')">Now Playing</p>
+          <p onclick="getMovies('popular','')">Popular</p>
+          <p onclick="getMovies('upcoming','')">Upcoming</p>
+        </div>
+      </div>
+      <div class="main"></div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
