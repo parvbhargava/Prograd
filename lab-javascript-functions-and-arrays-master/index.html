@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays & Functions</title>
+    <script src="./src/functions-and-arrays.js"></script>
+</head>
+<body>
+
+    <!-- Greatest of the two -->
+    <h2>Greatest of the two</h2>
+        <input type="number" id="n1" placeholder="1st number">
+        <input type="number" id="n2" placeholder="2nd number">
+        <input type="submit" value="Submit" onclick="greatestOfTwoNumbers()">
+        <span> &nbsp;&nbsp; Maximum: <span id="max"></span></span>
+    <!--  -->
+
+    <br><br><br><br>
+
+    <!-- The lengthy word -->
+    <h2>The lengthy word</h2>
+    <p style="font-size: larger;">Words are = 'George', 'Alice', 'Alex', 'John', 'Infanta', 'Xavior', 'LourdhAntony'</p>
+    <input type="submit" value="Submit" onclick="findScaryWord()">
+    <span> &nbsp;&nbsp; Lengthy Word: <span id="lengthy"></span></span>
+    <!--  -->
+
+    <br><br><br><br>
+
+    <!-- Net Price -->
+    <h2>Net Price</h2>
+    <p style="font-size: larger;">Prices = 200, 120, 100, 108, 135, 162, 25, 170, 80, 110</p>
+    <input type="submit" value="Submit" onclick="netPrice()">
+    <span> &nbsp;&nbsp; Net Price: <span id="net"></span></span>
+    <!--  -->
+
+    <br><br><br><br>
+
+    <!-- Mid Point -->
+    <h2>Mid Point</h2>
+    <h3>Array of Numbers (4.1)</h3>
+    <p style="font-size: larger;">Levels = 22, 16, 9, 10, 7, 14, 11, 9</p>
+    <input type="submit" value="Submit" onclick="midPointOfLevels()">
+    <span> &nbsp;&nbsp; Average: <span id="avg"></span></span>
+    
+    <br><br>
+
+    <h3>Array of Strings (4.2)</h3>
+    <p style="font-size: larger;">Items = 'bread', 'jam', 'milk', 'egg', 'flour', 'oil', 'rice', 'coffee powder', 'sugar', 'salt'</p>
+    <input type="submit" value="Submit" onclick="averageWordLength()">
+    <span> &nbsp;&nbsp; Average WordLength: <span id="avg-str"></span></span>
+    <!--  -->
+
+    <br><br><br><br>
+
+    <!-- Unique arrays -->
+    <h3>Unique arrays</h3>
+    <p style="font-size: larger;">Items = 'bread', 'jam', 'milk', 'egg', 'flour', 'oil', 'rice', 'coffee powder', 'sugar', 'salt', 'egg', 'flour'</p>
+    <input type="submit" value="Submit" onclick="uniqueArray()">
+    <span> &nbsp;&nbsp; Unique Array: <span id="unique"></span></span>
+    <!--  -->
+
+    <br><br><br><br>
+
+    <!-- Find elements -->
+    <h3>Find elements</h3>
+    <p style="font-size: larger;">Words = 'door', 'window', 'ceiling', 'roof', 'plinth', 'tiles', 'ceiling', 'flooring'</p>
+    <input type="text" id="str" placeholder="search element">
+    <input type="submit" value="Submit" onclick="searchElement()">
+    <span> &nbsp;&nbsp; Element present: <span id="found"></span></span>
+    <!--  -->
+
+    <br><br><br><br>
+    
+    <!-- Count repeated elements -->
+    <h3>Count repeated elements</h3>
+    <p style="font-size: larger;">Words = 'machine', 'matter', 'subset', 'trouble', 'starting', 'matter', 'eating', 'matter', 'truth', 'disobedience', 'matter'</p>
+    <input type="submit" value="Submit" onclick="howManyTimesElementRepeated()">
+    <p> &nbsp;&nbsp;Frequencies: <span id="freq"></span></p>
+    <!--  -->
+
+    <br><br><br>
+
+    <!-- Product of adjacent numbers -->
+    <h3>Product of adjacent numbers</h3>
+    <p style="font-size: larger;">Matrix = (5x5)<br>
+        [ 1,  2, 3, 4, 5] <br>
+        [ 1, 25, 3, 4, 5] <br>
+        [ 1, 20, 3, 4, 5] <br>
+        [ 1, 20, 3, 4, 5] <br>
+        [ 1,  4, 3, 4, 5] <br></p>
+    <input type="submit" value="Submit" onclick="maximumProduct()">
+    <p> &nbsp;&nbsp;Max product: <span id="maxP"></span></p>
+
+</body>
+</html>
