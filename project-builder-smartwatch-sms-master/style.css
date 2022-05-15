@@ -1,0 +1,109 @@
+.black{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    left: 0;
+    background-color: black;
+}
+.white{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.head{
+    color: white;
+    font-size: 90px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 40%;
+    margin-bottom: 30%;
+}
+.watch {
+    background: black;
+    height: 50vh;
+    width: 22vw;
+    border-radius: 85px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0; 
+
+}
+
+.watchBack {
+    position: absolute;
+    background: #3b3b3b;
+    height: 58vh;
+    width: 22vw;
+    border-radius: 105px;
+    z-index: -1;
+
+}
+.icons {
+    height: 5vh;
+    width: 21vw;
+    align-self: end;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+}
+#t{
+    align-self: flex-start;
+    position: absolute;
+    font-size: large;
+}
+
+.time {
+    display: none;
+    flex-direction: column;
+    align-items: center; 
+    font-size: xxx-large;   
+
+}
+
+.sms {
+    display: flex;
+    flex-direction: column;
+    background: aliceblue;
+    height: 33vh;
+    width: 16vw;
+    border-radius: 38px;
+    padding: 7%;
+    color: black;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.sms p {
+    height: 9vh;
+    border-bottom: 1px solid #0000005c;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#showMsg {
+    position: absolute;
+    background: aliceblue;
+    height: 30vh;
+    width: 17vw;
+    border: none;
+    display: none;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Watch SMS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="black">
+      <h1 class="head">SmartWatch</h1>
+    </div>
+    <div class="white">
+      <div class="watch">
+        <p id="t"></p>
+        <div class="time">
+          <p id="time"></p>
+          <p id="day"></p>
+        </div>
+        <div class="sms">
+          <p onclick="selectMsg(1)">Java</p>
+          <p onclick="selectMsg(2)">CSS</p>
+          <p onclick="selectMsg(3)">HTML</p>
+          <p onclick="selectMsg(4)">JavaScript</p>
+          <p id="showMsg"></p>
+        </div>
+        <div class="icons">
+          <img src="chat.PNG" alt="" />
+          <img src="music.PNG" alt="" />
+          <img src="time.PNG" alt="" />
+        </div>
+        <div class="watchBack"></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
