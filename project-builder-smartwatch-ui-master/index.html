@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartwatch-ui</title>
+
+
+
+
+    <script src='https://kit.fontawesome.com/7710ead17.js'></script>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container">
+        <section class="left">
+            <div class="text">
+                <h1>SmartWatch</h1>
+            </div>
+        </section>
+        <section class="right">
+            <div class="clock">
+                <h4 id="toptime"></h4>
+                <div class="centertime">
+                    <h1 id="middletime"></h1>
+                    <h5 id="daydisplay"></h5>
+                </div>
+                <div class="image">
+                    <button><i class='fas fa-comments'></i></button>
+                    <button><i class='fas fa-music'></i></button>
+                    <button><i class='far fa-clock'></i></button>
+                </div>
+            </div>
+        </div>
+        </section>
+    </section>
+    <script src="./app.js"></script>
+
+
+</body>
+</html>

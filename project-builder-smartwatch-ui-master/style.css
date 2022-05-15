@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 98%;
+    width: 100%;
+  
+    background: black;
+  }
+  .container {
+    display: flex;
+    height: 100%;
+    margin-top: 20px;
+  }
+  .left {
+    width: 50%;
+    background-color: rgb(43, 46, 56);
+    margin-bottom: 10px;
+  }
+  .right {
+    width: 50%;
+    background-color: white;
+    margin-bottom: 10px;
+  }
+  .text {
+    position: relative;
+    top: 285px;
+    left: 150px;
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .clock {
+    height: 340px;
+    width: 270px;
+    top: 140px;
+    left: 230px;
+    background: black;
+    border-radius: 15%;
+    border-top: 25px solid grey;
+    border-bottom: 25px solid grey;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .clock h4 {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .centertime {
+    text-align: center;
+    position: relative;
+    top: 10%;
+    font-size: 1.5rem;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .centertime h1 {
+    font-size: 5rem;
+  }
+  .image {
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 25px;
+  }
+  button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  .far,
+  .fas {
+    color: white;
+    font-size: 25px;
+  }
