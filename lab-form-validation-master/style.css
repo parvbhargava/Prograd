@@ -1,0 +1,371 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans&display=swap";
+
+body {
+background:#E5E5E5;
+display:flex;
+flex-direction:row;
+justify-content:center;
+align-content:center;
+align-items:center;
+}
+
+.container {
+display:flex;
+position:absolute;
+width:1440px;
+height:688px;
+left:10px;
+top:0;
+flex-direction:row;
+justify-content:center;
+align-content:center;
+align-items:center;
+background:url(/assets/image1.svg);
+}
+
+.main {
+display:flex;
+position:absolute;
+width:1480px;
+height:688px;
+left:0;
+top:0;
+flex-direction:row;
+justify-content:center;
+align-content:center;
+align-items:center;
+background:rgba(36,40,44,0.8);
+}
+
+.submain {
+position:absolute;
+width:1480px;
+height:64px;
+left:0;
+top:0;
+background:rgba(36,40,44,0.8);
+}
+
+.logo {
+display:flex;
+position:absolute;
+width:26px;
+height:26.29px;
+left:150px;
+top:21px;
+}
+
+.label {
+display:flex;
+position:absolute;
+width:123px;
+height:25px;
+left:190px;
+top:21px;
+font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+font-style:normal;
+font-weight:700;
+font-size:24px;
+line-height:33px;
+align-items:center;
+letter-spacing:.05em;
+color:#FFF;
+}
+
+.login {
+display:flex;
+position:absolute;
+width:49px;
+height:22px;
+left:1125px;
+top:21px;
+font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+font-style:normal;
+font-weight:400;
+font-size:16px;
+line-height:22px;
+text-align:center;
+color:#FFF;
+text-decoration:none;
+}
+
+.signupBox {
+position:absolute;
+width:103px;
+height:36px;
+left:1187px;
+top:14px;
+background:#2A2E32;
+border:1px solid #FFF;
+box-sizing:border-box;
+border-radius:2px;
+display:flex;
+}
+
+.signup {
+display:flex;
+position:absolute;
+width:103px;
+height:22px;
+left:1210px;
+top:21px;
+font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+font-style:normal;
+font-weight:400;
+font-size:16px;
+line-height:22px;
+text-align:center;
+color:#FFF;
+text-decoration:none;
+}
+
+.heading {
+display:flex;
+position:absolute;
+width:359px;
+height:121px;
+left:150px;
+top:188px;
+font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+font-style:normal;
+font-weight:700;
+font-size:48px;
+line-height:65px;
+color:#FFF;
+}
+
+.para {
+position:absolute;
+width:382px;
+height:100px;
+left:150px;
+top:341px;
+display:flex;
+font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+font-style:normal;
+font-weight:400;
+font-size:18px;
+line-height:25px;
+color:#FFF;
+}
+
+.signupPage {
+display:flex;
+position:absolute;
+width:450px;
+height:537px;
+left:840px;
+top:200px;
+background:#FFF;
+box-shadow:0 6px 9px rgba(0,0,0,0.08);
+border-radius:0 60px;
+transform:matrix(1,0,0,-1,0,0);
+}
+
+.createPage {
+position:absolute;
+width:450px;
+height:537px;
+left:840px;
+top:186px;
+display:flex;
+}
+
+.username {
+position:absolute;
+width:79px;
+height:19px;
+left:904px;
+top:255px;
+font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+font-style:normal;
+font-weight:700;
+font-size:16px;
+line-height:19px;
+display:flex;
+align-items:center;
+letter-spacing:.01em;
+color:#000;
+}
+
+.usertext {
+position:absolute;
+width:322px;
+height:50px;
+left:904px;
+top:290px;
+background:#FFF;
+border:1px solid #E4E4E4;
+box-sizing:border-box;
+box-shadow:0 2px 4px rgba(0,0,0,0.08);
+border-radius:2px;
+font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+font-style:normal;
+font-weight:400;
+font-size:16px;
+line-height:22px;
+display:flex;
+align-items:center;
+letter-spacing:.01em;
+color:rgba(12,7,7,0.33);
+}
+
+.email {
+position:absolute;
+width:79px;
+height:19px;
+left:904px;
+top:380px;
+font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+font-style:normal;
+font-weight:700;
+font-size:16px;
+line-height:19px;
+display:flex;
+align-items:center;
+letter-spacing:.01em;
+color:#000;
+}
+
+.emailtext {
+position:absolute;
+width:322px;
+height:50px;
+left:904px;
+top:415px;
+background:#FFF;
+border:1px solid #E4E4E4;
+box-sizing:border-box;
+box-shadow:0 2px 4px rgba(0,0,0,0.08);
+border-radius:2px;
+font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+font-style:normal;
+font-weight:400;
+font-size:16px;
+line-height:22px;
+display:flex;
+align-items:center;
+letter-spacing:.01em;
+color:rgba(12,7,7,0.33);
+}
+
+.password {
+position:absolute;
+width:79px;
+height:19px;
+left:904px;
+top:505px;
+font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+font-style:normal;
+font-weight:700;
+font-size:16px;
+line-height:19px;
+display:flex;
+align-items:center;
+letter-spacing:.01em;
+color:#000;
+}
+
+.passwordtext {
+position:absolute;
+width:322px;
+height:50px;
+left:904px;
+top:540px;
+background:#FFF;
+border:1px solid #E4E4E4;
+box-sizing:border-box;
+box-shadow:0 2px 4px rgba(0,0,0,0.08);
+border-radius:2px;
+font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+font-style:normal;
+font-weight:400;
+font-size:16px;
+line-height:22px;
+display:flex;
+align-items:center;
+letter-spacing:.01em;
+color:rgba(12,7,7,0.33);
+}
+
+.submit {
+position:absolute;
+width:322px;
+height:50px;
+left:904px;
+top:645px;
+background:#FE9A28;
+border-radius:2px;
+font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+font-style:normal;
+font-weight:700;
+font-size:18px;
+line-height:22px;
+display:flex;
+align-items:center;
+letter-spacing:.01em;
+color:#FFF;
+justify-content:center;
+}
+
+.nameerror {
+position:absolute;
+width:290px;
+height:16px;
+left:920px;
+top:340px;
+font-family:Open Sans;
+font-style:normal;
+font-weight:400;
+font-size:12px;
+line-height:16px;
+display:flex;
+align-items:center;
+letter-spacing:.01em;
+color:#EB5757;
+}
+
+.emailerror {
+position:absolute;
+width:290px;
+height:16px;
+left:920px;
+top:465px;
+font-family:Open Sans;
+font-style:normal;
+font-weight:400;
+font-size:12px;
+line-height:16px;
+display:flex;
+align-items:center;
+letter-spacing:.01em;
+color:#EB5757;
+}
+
+.passworderror {
+position:absolute;
+width:290px;
+height:16px;
+left:920px;
+top:590px;
+font-family:Open Sans;
+font-style:normal;
+font-weight:400;
+font-size:12px;
+line-height:16px;
+display:flex;
+align-items:center;
+letter-spacing:.01em;
+color:#EB5757;
+}
+
+.footer{
+    position:absolute;
+    margin-left: 80px;
+    left: -60px;
+    top: 700px;
+    font-size: 18px;
+    font-family:Open Sans;
+    font-style:normal;
+    font-weight:400;
+}
