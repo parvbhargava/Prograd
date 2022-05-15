@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Watch</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="black">
+        <h1 class="head">SmartWatch</h1>
+      </div>
+      <div class="white">
+        <div class="watch">
+          <p id="t" onclick="selectScreen(0)"></p>
+          <div class="screen">
+            <div class="time">
+              <p id="time"></p>
+              <p id="day"></p>
+            </div>
+            <div class="sms">
+              <p onclick="selectMsg(1)">Java</p>
+              <p onclick="selectMsg(2)">CSS</p>
+              <p onclick="selectMsg(3)">HTML</p>
+              <p onclick="selectMsg(4)">JavaScript</p>
+              <p id="showMsg"></p>
+            </div>
+            <div class="media">
+              <div class="mtop">
+                <div class="mleft">
+                  <img
+                    src="i1.jpg"
+                    style="width: 100%; height: 100%"
+                    id="art"
+                  />
+                </div>
+                <div class="mright">
+                  <audio src="s1.mp3" controls id="song"></audio>
+                </div>
+              </div>
+              <div class="mbottom">
+                <div class="song" onclick="selectSong(1)">
+                  <p>1&nbsp;&nbsp;&nbsp;Euphoria</p>
+                  <p>3:48</p>
+                </div>
+                <div class="song" onclick="selectSong(2)">
+                  <p>2&nbsp;&nbsp;&nbsp;Fake Love</p>
+                  <p>4:01</p>
+                </div>
+                <div class="song" onclick="selectSong(3)">
+                  <p>3&nbsp;&nbsp;&nbsp;Butter</p>
+                  <p>2:46</p>
+                </div>
+                <div class="song" onclick="selectSong(4)">
+                  <p>4&nbsp;&nbsp;&nbsp;Lily</p>
+                  <p>4:20</p>
+                </div>
+              </div>
+            </div>
+            <!-- Timer -->
+            <div class="timer">
+              <h1 class="runningTime" id="runningTime">00:00:00</h1>
+              <h3 class="pausedTime" id="pausedTime">00:00:00</h3>
+              <div class="timerBtns">
+                <button onclick="reset()"><i class="fas fa-redo"></i></button>
+                <button onclick="start()"><i class="fas fa-play"></i></button>
+                <button onclick="pause()"><i class="fas fa-pause"></i></button>
+                <button onclick="stopTimer()">
+                  <i class="fas fa-stop"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="icons">
+            <img src="./chats.png" onclick="selectScreen(1)" />
+            <img src="./music.png" onclick="selectScreen(3)" />
+            <img src="./timer.png" onclick="selectScreen(5)" />
+          </div>
+          <div class="watchBack"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
